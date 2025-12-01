@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kết quả</title>
+</head>
+<body>
+<h2>Kết quả phân tích cho {{ name }}</h2>
+
+<p><b>Số định danh:</b> {{ idnum }}</p>
+<p><b>Điểm gốc:</b> {{ score }}</p>
+
+<h3>Dữ liệu dân cư</h3>
+<p><b>Tình trạng hộ:</b> {{ status }}</p>
+<p><b>Khoảng cách:</b> {{ distance }} km</p>
+
+<h3>Điểm sau điều chỉnh: <span style="color:blue">{{ final }}</span></h3>
+
+<br>
+<a href="/">← Quay lại</a>
+</body>
+</html>

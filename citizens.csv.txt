@@ -1,0 +1,5 @@
+national_id,household_status,distance_km
+0011,normal,1.2
+0012,poor,9.0
+0013,poor,14.0
+0014,vulnerable,6.0
